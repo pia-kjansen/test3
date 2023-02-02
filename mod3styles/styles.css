@@ -1,10 +1,51 @@
 <style>
 
 /*******Base Styles********/
-* {
-  box-sizing: border-box;
-  margin:0;
-  padding:0;
+h1 {color: fuchsia;
+}
+body {
+  font size: 16px;
+  color: maroon;
+  background: palegoldenrod;
+  font-family: 'Itim',cursive;}
+
+.food {
+  height:1000px;
+  text-align:center;
+  background:darkgoldenrod;
+  margin:10px;
 }
 
-h1 {color: fuchsia;}
+
+.navbar-default {
+  background-color: darkgoldenrod;
+}
+
+#nav-list a:hover {background:lightcyan;}
+
+#nav-list a {
+  color: white;
+  text-align:center;
+  }
+
+#h2 {
+  color:maroon;
+  font size: 2em;
+}
+.row {width: 100%}
+
+
+/**large device**/ 
+
+
+/**medium device**/
+
+@media {.col-md-4}
+
+/**small device **/
+
+@media {.col-sm-6}
+
+</style>
+
+

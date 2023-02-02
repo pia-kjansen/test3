@@ -1,12 +1,87 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css"
-href="styles/mod3styles.css">
-<title>Module3 Test</title>
-</head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="mod3styles/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="mod3styles/styles.css">
+	<title>Module3 Test</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+	</head>
+<body>
 
-<h1> Food For Thought </h1>
+<header>
+	<nav class="navbar navbar-default navbar-static-top" id="header-nav">
+		<div class="container">
+			<div class="navbar-brand"><h1> Food, LLC </h1></div>
+
+			<button type="button" class="navbar-toggler d-block d-sm-none" data-toggle="collapse" data-target="#collapse-menu" aria-controls="collapse-menu" aria-expanded="false" aria-label="Toggle navigation">
+        		<span class="navbar-toggler-icon"></span>
+      		</button>	
+      	
+		
+		<div id="collapse-menu" class="collapse navbar-collapse">	
+         	<ul id="nav-list" class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+            <a class="nav-link" href="Chicken">Chicken</a></li>
+			<li class="nav-item active">
+            <a class="nav-link" href="Beef">Beef</a></li>
+            <li class="nav-item active">
+            <a class="nav-link" href="Sushi">Sushi</a></li>          
+     		</ul>
+ 		</div> <!--.container-->
+	</nav><!--#header-nav -->
+</header>
+<h2 class="text-center"> Our Menu</h2>
+<div class=container>
+<div class=food id=Chicken><h3>Chicken</h3>
+	<p>Oh, what a noble mind is here o'erthrown! 
+The courtier's, soldier's, scholar's, eye, tongue, sword;
+Th' expectancy and rose of the fair state,
+The glass of fashion and the mold of form,
+Th' observed of all observers — quite, quite down!    
+And I, of ladies most deject and wretched
+That sucked the honey of his music vows,
+Now see that noble and most sovereign reason
+Like sweet bells jangled, out of tune and harsh,
+That unmatched form and feature of blown youth
+Blasted with ecstasy. Oh, woe is me
+T’have seen what I have seen, see what I see!</p></div>
+<div class=food id=Beef><h3>Beef</h3>
+	<p>Whether 'tis nobler in the mind to suffer
+The slings and arrows of outrageous fortune
+Or to take arms against a sea of troubles
+And by opposing end them. To die, to sleep--
+No more--and by a sleep to say we end
+The heartache, and the thousand natural shocks
+That flesh is heir to. 'Tis a consummation
+Devoutly to be wished. To die, to sleep--
+To sleep--perchance to dream: ay, there's the rub,
+For in that sleep of death what dreams may come
+When we have shuffled off this mortal coil,
+Must give us pause. There's the respect
+That makes calamity of so long life.</p></div>
+<div class=food id=Sushi><h3>Sushi</h3>
+	<p>For who would bear the whips and scorns of time,
+Th' oppressor's wrong, the proud man's contumely
+The pangs of despised love, the law's delay,
+The insolence of office, and the spurns
+That patient merit of th' unworthy takes,
+When he himself might his quietus make
+With a bare bodkin? Who would fardels bear,
+To grunt and sweat under a weary life,
+But that the dread of something after death,
+The undiscovered country, from whose bourn
+No traveller returns, puzzles the will,
+And makes us rather bear those ills we have
+Than fly to others that we know not of?</p></div>
+</div>
+
+<!--JQuery Bootstrap JS Stuff-->
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
 </html>
